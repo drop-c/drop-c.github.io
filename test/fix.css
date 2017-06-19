@@ -228,6 +228,9 @@ html {
 
 .header__logo {
   position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   text-align: left;
@@ -536,7 +539,7 @@ header__nav a:focus {
   bottom: -100px;
   left: auto;
   position: absolute;
-  z-index: 0
+  z-index: 1
 }
 
 .slide--active .slide__preload img {
@@ -799,7 +802,7 @@ header__nav a:focus {
     display: -ms-flexbox;
     display: flex
   }
-  .header__logo {
+  .logo {
     margin-right: 38px;
     height: 63px
   }

@@ -14,7 +14,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   bottom: auto;
   left: 0;
   position: fixed;
@@ -851,7 +851,7 @@ header__nav a:focus {
 
 @media only screen and (min-width:500px) {
   .headernew {
-    flex-flow: row wrap;
+    flex-direction: row;
   }
   .headernew p {
     line-height: 1.25rem

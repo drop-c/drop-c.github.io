@@ -1205,3 +1205,24 @@ header__nav a:focus {
     max-width: 45%
   }
 }
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .hero {
+    height: 460px;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  .hero {
+    height: 1024px;
+  }
+}
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .hero {
+    height: 768px;
+  }
+}
